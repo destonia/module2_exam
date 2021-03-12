@@ -124,7 +124,7 @@ class ProductDB
                         $row['Price'],
                         $row['Quantity'],
                         $row['CreatedDate'],
-                        $row['Info']);
+                        $row['ProductInfo']);
                     $product->id = $row['ProductId'];
                 }
                 $products[] = $product;
